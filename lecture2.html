@@ -1,0 +1,158 @@
+<!doctype html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Interactive Information Design</title>
+
+		<meta name="description" content="Made with reveal.js">
+		<meta name="author" content="Emily Withrow, Heather Billings">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/heather.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>Interactive Information Design</h3>
+					<p>
+						<small>Heather Battaglia / <a href="http://twitter.com/hbillings">@hbillings</a></small>
+					</p>
+				</section>
+
+				<section style="text-align:left;">
+					<h2>Today's agenda</h2>
+          <ul>
+            <li class="fragment highlight-blue">Discussion: Your info design examples</li>
+            <li class="fragment highlight-blue">Lecture: Building blocks of clear design</li>
+            <li>Lab: Baby name trends</li>
+          </ul>
+				</section>
+
+        <section style="text-align:left;">
+          <h2>Lecture</h2>
+          <ul>
+            <li>Gestalt principles</li>
+            <li>Color theory</li>
+            <li>Typography</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Gestalt principles</h2>
+          <blockquote>The whole is greater than the sum of its parts.</blockquote>
+          <p><small class="credit">—Kurt Koffka</small></p>
+        </section>
+        <section>
+          <h4>Gestalt principles</h4>
+          <h2>Proximity</h2>
+          <p>Items near each other seem related.</p>
+          <div class="left">
+            <img src="img/lecture2/proximity1.jpg">
+          </div>
+          <div class="right">
+            <img src="img/lecture2/proximity2.jpg">
+          </div>
+        </section>
+        <section>
+          <h2>Similarity</h2>
+          <p>Items that look similar are perceived as a group or pattern.</p>
+          <img src="img/lecture2/similarity.jpg">
+        </section>
+        <section>
+          <h2>Similarity</h2>
+          <img src="img/lecture2/similarity2.jpg">
+        </section>
+
+        <section>
+          <h2>Continuity</h2>
+          <p>The mind extends patterns beyond the end points of individual components.</p>
+          <img src="img/lecture2/continuity.jpg">
+        </section>
+        <section>
+          <h2>Closure</h2>
+          <p>The brain fills in missing information about shapes and figures.</p>
+          <img src="img/lecture2/closure.jpg">
+        </section>
+        <section>
+          <h2>Figure/Ground</h2>
+          <div class="left">
+            <p><strong>Figure</strong>: element in focus</p>
+            <p><strong>Ground</strong>: element upon which the figure rests</p>
+          </div>
+          <img class="right" src="img/lecture2/figure-ground.jpg">
+        </section>
+        <section style="text-align:left;">
+          <h2></h2>
+          <p></p>
+        </section>
+
+				<section style="text-align:left;">
+					<h2>Today's agenda</h2>
+          <ul>
+            <li>Discussion: Your info design examples</li>
+            <li>Lecture</li>
+            <li class="fragment highlight-blue">Lab: Baby name trends</li>
+          </ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
