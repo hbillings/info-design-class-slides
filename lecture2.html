@@ -42,7 +42,8 @@
 			<div class="slides">
 				<section>
 					<h3>Interactive Information Design</h3>
-					<p>
+          <img src="img/lecture2/you-got-this.jpg">
+          <p>
 						<small>Heather Battaglia / <a href="http://twitter.com/hbillings">@hbillings</a></small>
 					</p>
 				</section>
@@ -50,29 +51,190 @@
 				<section style="text-align:left;">
 					<h2>Today's agenda</h2>
           <ul>
-            <li class="fragment highlight-blue">Discussion: Your info design examples</li>
-            <li class="fragment highlight-blue">Lecture: Building blocks of clear design</li>
+            <li class="fragment highlight-blue">Status updates</li>
+            <li>Lecture: A brief overview of the Internet</li>
+            <li>Lab: Strife and power in the Middle East</li>
+            <li>Lecture: Hierarchy and gestalt</li>
+            <li>Lab: Baby name trends</li>
+          </ul>
+				</section>
+        <section>
+          <h2>Status updates</h2>
+          <img src="img/lecture2/clueless-dog.jpg">
+          <h4>What was confusing?</h4>
+        </section>
+        <section>
+          <h2>Final project prep</h2>
+          <h4>(Prep due next week!)</h4>
+          <ul style="font-size: 80%;">
+            <li>Develop a pitch for your mini-project, which will be due in two weeks.</li>
+            <li>Find a simple, clean dataset you'd like to explore for the final project. (Please email me if you're at a loss finding one.) </li>
+            <li>Find a story in this data.</li>
+            <li>Identify at least two goals for telling this story, and come up with an initial idea for how to visualize it.</li>
+            <li>Develop this idea into a small pitch (100 words) and accompanying sketch. Upload as a Word doc with sketch embedded as an image.</li>
+          </ul>
+        </section>
+				<section style="text-align:left;">
+					<h2>Today's agenda</h2>
+          <ul>
+            <li>Status updates</li>
+            <li class="fragment highlight-blue">Lecture: A brief overview of the Internet</li>
+            <li>Lab: Strife and power in the Middle East</li>
+            <li>Lecture: Hierarchy and gestalt</li>
             <li>Lab: Baby name trends</li>
           </ul>
 				</section>
 
-        <section style="text-align:left;">
-          <h2>Lecture</h2>
+        <section>
+          <h2>The Internet: a brief overview</h2>
+          <img src="img/lecture2/http-status-cats.png" height="550">
+        </section>
+        <section>
+          <h2>A series of tubes</h2>
+          <p>The Internet is just a network that moves data.</p>
+        </section>
+        <section>
+          <h2>A series of tubes</h2>
           <ul>
-            <li>Gestalt principles</li>
-            <li>Color theory</li>
-            <li>Typography</li>
+            <li class="fragment roll-in"><strong>Servers</strong> store information (mail, Web documents, images...).</li>
+            <li class="fragment roll-in"><strong>Clients</strong> request information from servers.</li>
+            <li class="fragment roll-in"><strong>Routers</strong> connect systems of various kinds.</li>
           </ul>
         </section>
+        <section>
+          <h2>A series of tubes</h2>
+          <ul>
+            <li class="fragment roll-in">Data is sent between computers in <strong>packets</strong>, tiny fragments of information.</li>
+            <li class="fragment roll-in">Packets can travel simultaneously and are reassembled when they reach the client.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Networking it</h2>
+          <ul>
+            <li class="fragment roll-in">There are a variety of <strong>protocols</strong> for transmitting packets of data. The most commonly used is <strong>TCP/IP</strong>.</li>
+            <li class="fragment roll-in"><strong>TCP</strong> controls the organization and transmission of the data between <strong>IP addresses</strong>.</li>
+            <li class="fragment roll-in">Every computer, server or client, has an IP address.</li>
+            <li class="fragment roll-in"><strong>DNS</strong> aliases IP addresses  <em>(127.1.1.0)</em> to URLs.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3><a href="https://www.youtube.com/watch?v=PkGDHcWsDII">In other words...</a></h3>
+        </section>
+
+        <section style="text-align: left;">
+          <h6>Server side</h6>
+          <h2>"Back-end" technologies</h2>
+          <h6>Logic & performance</h6>
+          <ul>
+            <li class="fragment roll-in">Web servers (actual computers + software like Apache, NGINX, Node.js)</li>
+            <li class="fragment roll-in">Databases (PostgreSQL, MariaDB, MySQL)</li>
+            <li class="fragment roll-in">Data modeling (Python, Ruby)</li>
+            <li class="fragment roll-in">Caching (some kinds)</li>
+            <li class="fragment roll-in">Web frameworks (kind of)</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h6>Client side</h6>
+          <h2>"Front-end" technologies</h2>
+          <h6>Presentation & interactivity</h6>
+          <ul>
+            <li class="fragment roll-in">Caching (some other kinds)</li>
+            <li class="fragment roll-in">HTML/CSS</li>
+            <ul>
+              <li class="fragment roll-in">HTML5 Boilerplate</li>
+              <li class="fragment roll-in">CSS frameworks (Bootstrap, Foundation, Skeleton)</li>
+            </ul>
+            <li class="fragment roll-in">JavaScript</li>
+            <ul>
+              <li class="fragment roll-in">Libraries (jQuery, Prototype, Datatables, D3, among MANY others)</li>
+              <li class="fragment roll-in">Frameworks (React, Angular, Ember, Backbone)</li>
+            </ul>
+          </ul>
+        </section>
+
+				<section style="text-align:left;">
+					<h2>Today's agenda</h2>
+          <ul>
+            <li>Status updates</li>
+            <li>Lecture: A brief overview of the Internet</li>
+            <li class="fragment highlight-blue">Lab: Strife and power in the Middle East</li>
+            <li>Lecture: Hierarchy and gestalt</li>
+            <li>Lab: Baby name trends</li>
+          </ul>
+				</section>
+
+        <section data-background="#1b91ff" data-background-transition="zoom">
+          <section style="text-align: left;">
+            <h2>Strife & power in the new Middle East</h2>
+            <p>Working in teams of 3-4, and using the article "Strife and Power in the New Middle East" as your guide, create a proposal for an information graphic. <strong>Set goals</strong> for the story before you begin, and work on a series of sketches together. Weigh each of them against your set goals. Come up with the solution you think is best and be ready to present to the group.<p>
+            <p><a class="fragment" href="img/lecture1/strife-and-power-in-the-new-middle-east_50290b0a02823.jpg">One solution...</a>
+            </p>
+          </section>
+
+        </section>
+
+				<section style="text-align:left;">
+					<h2>Today's agenda</h2>
+          <ul>
+            <li>Status updates</li>
+            <li>Lecture: A brief overview of the Internet</li>
+            <li>Lab: Strife and power in the Middle East</li>
+            <li class="fragment highlight-blue">Lecture: Hierarchy and gestalt</li>
+            <li>Lab: Baby name trends</li>
+          </ul>
+				</section>
+
+        <section>
+          <h2>Visual hierarchy</h2>
+        </section>
+
+        <section>
+          <h2>Hierarchy is...</h2>
+          <p>The organization of items into different levels of relative importance.</p>
+        </section>
+        <section>
+          <h3>Why is hierarchy significant?</h3>
+          <ul>
+            <li>Communicates information more effectively.</li>
+            <li>We respond more quickly to visual cues.</li>
+            <li>Creates order.</li>
+          </ul>
+        </section>
+        <section>
+          <div style="width: 400px; height: 400px; float: left; border-radius: 400px; background-color: black; margin: 0 100px 100px 0;"></div>
+          <div style="width: 400px; height: 400px; float: left; border-radius: 400px; background-color: black; margin-bottom: 100px;"></div>
+          <p>Rank the objects in order of importance.</p>
+        </section>
+        <section>
+          <div style="width: 400px; height: 400px; float: left; border-radius: 400px; background-color: black; margin: 0 100px 100px 0;"></div>
+          <div style="width: 300px; height: 300px; float: left; border-radius: 400px; background-color: black; margin-top: 100px;"></div>
+          <p style="clear: both;">Rank the objects in order of importance.</p>
+        </section>
+        <section>
+          <div style="width: 400px; height: 400px; float: left; border-radius: 400px; background-color: black; margin: 0 100px 100px 0;"></div>
+          <div style="width: 300px; height: 300px; float: left; border-radius: 400px; background-color: red; margin-top: 100px;"></div>
+          <p style="clear: both;">Rank the objects in order of importance.</p>
+        </section>
+        <section>
+          <img src="img/lecture2/hierarchy.gif" style="border: none; box-shadow: none;">
+        </section>
+
+
         <section>
           <h2>Gestalt principles</h2>
           <blockquote>The whole is greater than the sum of its parts.</blockquote>
           <p><small class="credit">—Kurt Koffka</small></p>
         </section>
         <section>
-          <h4>Gestalt principles</h4>
+          <p>The whole is <em>other</em> than the sum of its parts.</p>
+        </section>
+
+        <section>
+          <h6>Gestalt principles</h6>
           <h2>Proximity</h2>
-          <p>Items near each other seem related.</p>
+          <p>Items near each other seem related. Can create subcategories.</p>
           <div class="left">
             <img src="img/lecture2/proximity1.jpg">
           </div>
@@ -81,26 +243,31 @@
           </div>
         </section>
         <section>
+          <h6>Gestalt principles</h6>
           <h2>Similarity</h2>
           <p>Items that look similar are perceived as a group or pattern.</p>
           <img src="img/lecture2/similarity.jpg">
         </section>
         <section>
+          <h6>Gestalt principles</h6>
           <h2>Similarity</h2>
           <img src="img/lecture2/similarity2.jpg">
         </section>
 
         <section>
+          <h6>Gestalt principles</h6>
           <h2>Continuity</h2>
           <p>The mind extends patterns beyond the end points of individual components.</p>
           <img src="img/lecture2/continuity.jpg">
         </section>
         <section>
+          <h6>Gestalt principles</h6>
           <h2>Closure</h2>
           <p>The brain fills in missing information about shapes and figures.</p>
           <img src="img/lecture2/closure.jpg">
         </section>
         <section>
+          <h6>Gestalt principles</h6>
           <h2>Figure/Ground</h2>
           <div class="left">
             <p><strong>Figure</strong>: element in focus</p>
@@ -108,22 +275,130 @@
           </div>
           <img class="right" src="img/lecture2/figure-ground.jpg">
         </section>
-        <section style="text-align:left;">
-          <h2></h2>
-          <p></p>
+        <section>
+          <h3>How does this relate to infographics?</h3>
         </section>
-
+        <section>
+          <p>To tell an effective story, you need to lead the reader through all the pieces in the order that best tells your story.</p>
+        </section>
+        <section>
+        <p>The eye sees areas of shapes and colors first.</p>
+          <img class="right" src="img/lecture2/shape-and-color.png">
+        </section>
+        <section>
+        <p>More specific visual details come next.</p>
+          <img class="right" src="img/lecture2/more-specific.png">
+        </section>
+        <section>
+        <p>Individual words and phrases come last.</p>
+          <img class="right" src="img/lecture2/words-and-phrases.png">
+        </section>
+        <section>
+          <h2>Contrasts</h2>
+          <p>Allows us to distinguish between items and give them unique meanings.</p>
+        </section>
+        <section>
+          <h2>Contrasts: Neutral</h2>
+          <img src="img/lecture2/neutral.png" style="float:left; max-height:500px; margin-right: 20px; border: none; box-shadow: none;">
+          <p style="text-align:left;">No hierarchy. The eye will naturally enter at the top left.</p>
+        </section>
+        <section>
+          <h2>Contrasts: Position</h2>
+          <img src="img/lecture2/position.png" style="float:left; max-height:500px; margin-right: 20px; border: none; box-shadow: none;">
+          <p style="text-align:left;">Allows us to distinguish between items and give them unique meanings.</p>
+        </section>
+        <section>
+          <h2>Contrasts: Position & size</h2>
+          <img src="img/lecture2/position-size.png" style="float:left; max-height:500px; margin-right: 20px; border: none; box-shadow: none;">
+          <p style="text-align:left;">Altering the size of an element and adding spacing establishes its dominance.</p>
+        </section>
+        <section>
+          <h2>Contrasts: Position, size & emphasis</h2>
+          <img src="img/lecture2/position-size-emphasis.png" style="float:left; max-height:500px; margin-right: 20px; border: none; box-shadow: none;">
+          <p style="text-align:left;">Adding color here solidifies the element at the top of the hierarchy.</p>
+        </section>
+        <section>
+        <img src="img/lecture2/godzilla1.png">
+        </section>
+        <section>
+          <img src="img/lecture2/godzilla2.png">
+        </section>
+        <section>
+          <img src="img/lecture2/godzilla3.png">
+        </section>
+        <section>
+          <img src="img/lecture2/godzilla4.png">
+        </section>
+        <section>
+          <img src="img/lecture2/godzilla5.png">
+        </section>
+        <section>
+          <img src="img/lecture2/godzilla6.png">
+        </section>
+        <section>
+          <img src="img/lecture2/godzilla7.png">
+        </section>
+        <section>
+          <img src="img/lecture2/godzilla8.png">
+        </section>
+        <section>
+          <img src="img/lecture2/godzilla9.png">
+        </section>
+        <section>
+          <h2>Size</h2>
+          <p>Bigger items demand more attention.</p>
+        </section>
+        <section>
+          <h2>Color</h2>
+          <p>Can establish a physical order as well as an emotional appeal and connection.</p>
+        </section>
+        <section>
+          <h2>Alignment</h2>
+          <p>Connects elements and creates a flow. Anything that disrupts the alignment draws attention to itself.</p>
+        </section>
+        <section>
+          <h2>Repetition</h2>
+          <p>Establishes items at the same level in the hierarchy.</p>
+        </section>
+        <section>
+          <p>Interactive design allows the user more control of the <strong>order</strong> the information is accessed.</p>
+        </section>
+        <section>
+          <h2>Establishing your design</h2>
+          <ul>
+            <li>Overall purpose and goals</li>
+            <li>Nature of the content</li>
+            <li>Expectations of the user</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Alberto Cairo’s Visualization Wheel</h4>
+          <img src="img/lecture2/cairo-wheel.png">
+        </section>
 				<section style="text-align:left;">
 					<h2>Today's agenda</h2>
           <ul>
-            <li>Discussion: Your info design examples</li>
-            <li>Lecture</li>
+            <li>Status updates</li>
+            <li>Lecture: A brief overview of the Internet</li>
+            <li>Lab: Strife and power in the Middle East</li>
+            <li>Lecture: Hierarchy and gestalt</li>
             <li class="fragment highlight-blue">Lab: Baby name trends</li>
           </ul>
 				</section>
-
+        <section data-background="#1b91ff" data-background-transition="zoom">
+          <h2>Baby names through time</h2>
+          <p style="font-size: 80%;"><em>In a group or by yourself</em></p>
+          <ol style="font-size: 80%;">
+            <li>Download baby name data for the past 100+ years.</li>
+            <li>Take a look at the data, and pick ONE story to tell. (This can be by state, by year, by name...)</li>
+            <li>Crunch your numbers. Isolate your variables. Get your data in order.</li>
+            <li>Set some simple goals for your visualization based on the story you want to tell.</li>
+            <li>Upload your data to Datawrapper and play with visualizations. Which types match your goals? Which work against them?</li>
+            <li>Settle on a chart and customize.</li>
+            <li>Publish and embed your graphic in the new discussion thread alongside your goals. (Complete for HW if you don't finish within the hour.) </li>
+          </ol>
+        </section>
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
